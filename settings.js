@@ -24,9 +24,11 @@ function Modification(name, filename, legacy, sheetSize) {
 var MODIFICATIONS = {
     "1-0-0": new Modification("Vanilla 1.0.0", "vanilla-1.0.0.json", false, [480, 512]),
     "1-0-0x": new Modification("Vanilla 1.0.0 - Expensive", "vanilla-1.0.0-expensive.json", false, [480, 512]),
+	"1-0-0mx": new Modification("Modded 1.0.0 - Expensive", "modded-1.0.0-expensive.json", false, [480, 512]),
+	"1-0-0m": new Modification("Modded 1.0.0", "modded-1.0.0.json", false, [480, 512]),
 }
 
-var DEFAULT_MODIFICATION = "1-0-0"
+var DEFAULT_MODIFICATION = "1-0-0m"
 
 function addOverrideOptions(version) {
     var tag = "local-" + version.replace(/\./g, "-")
