@@ -29434,52 +29434,6 @@
             "subgroup": "bob-electronic-boards",
             "type": "recipe"
         },
-        "synthetic-wood": {
-            "allow_decomposition": false,
-            "category": "chemistry",
-            "crafting_machine_tint": {
-                "primary": {
-                    "a": 0.0,
-                    "b": 0.0,
-                    "g": 0.04,
-                    "r": 0.5
-                },
-                "secondary": {
-                    "a": 0.0,
-                    "b": 0.3,
-                    "g": 0.6,
-                    "r": 0.85
-                },
-                "tertiary": {
-                    "a": 0.0,
-                    "b": 0.4,
-                    "g": 0.6,
-                    "r": 1
-                }
-            },
-            "enabled": false,
-            "energy_required": 1,
-            "icon_col": 20,
-            "icon_row": 19,
-            "icon_size": 32,
-            "ingredients": [ {
-                "amount": 10,
-                "name": "heavy-oil",
-                "type": "fluid"
-            } ],
-            "localised_name": [ "recipe-name.synthetic-wood" ],
-            "localized_name": {
-                "en": "<dummy name>"
-            },
-            "name": "synthetic-wood",
-            "order": "a[wood]",
-            "results": [ {
-                "amount": 2,
-                "name": "wood"
-            } ],
-            "subgroup": "bob-resource-chemical",
-            "type": "recipe"
-        },
         "tank": {
             "category": "crafting",
             "enabled": false,
